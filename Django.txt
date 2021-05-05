@@ -1,0 +1,18 @@
+Django
+
+Cai dat: pip install django
+
+Kiem tra version:
+python
+import django
+django.VERSION
+
+Start project: 
+django-admin startproject myproject
+
+Start app:
+cd myproject
+python manage.py startapp myapp
+
+Run server:
+python manage.py runserver
